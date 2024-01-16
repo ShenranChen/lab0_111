@@ -13,8 +13,9 @@ TODO: cmd for running binary
 TODO: results?
 
 ## Cleaning Up
-```shell
-TODO: cmd for cleaning the built binary
+```shell, invoke target clean to remove build artifacts
+TODO: make clean
+
 ```
 
 ## Testing
