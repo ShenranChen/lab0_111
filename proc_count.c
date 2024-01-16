@@ -10,6 +10,7 @@ static int proc_count(struct seq_file *m, void *v){
 	int count = 0;
 	struct task_struct *list;
 
+	//iterate over each process in the process list
 	for_each_process(list){
 		count++;
 	}
